@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My page</title>
+<style type="text/css">
+.head{ width:100%;}
+#wrap{ width:90%; margin:0 auto;}
+#heading ul{ background:#CACACA;; font-size:20px; line-height:40px; height:40px; width:100%; margin-top:0;}
+#heading li{ width:225;display:inline-block; padding:0 60px;height:40px; line-height:40ox;}
+#heading li:hover{width:225;display:inline-block; padding:0 60px;height:40px; line-height:40ox; background:#68E1CD;}
+#heading li:active{width:225;display:inline-block; padding:0 60px;height:40px; line-height:40ox; background:#FFFFFF;}
+#heading a{ text-decoration:none; color:#6F803A;}
+.table{ border: thick solid #DEEDF4; padding:30px; width:80%; margin:0 auto;}
+.table img{ height:180px; width:120px;}
+.table td{ margin:0 50px; line-height:60px; width:300px}
+h2{ position:relative; left:10%;}
+.bottoml{ float:left; margin-left:140px;}
+.bottomr{float:right; margin-right:140px; }
+.bottomr a{text-decoration:none;}
+</style>
+</head>
+
+<body>
+
+<div id="wrap" >
+<img src="sss.jpg" class="head">
+<div id="heading">
+<ul>
+<li><a href="file:///D|/Documents/%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3/My%20page.html" class="on">基本信息</a></li>
+<li><a href="file:///D|/Documents/%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3/Education.html">教育信息</a></li>
+<li><a href="file:///D|/Documents/%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3/Internship.html">实习信息</a></li>
+<li><a href="file:///D|/Documents/%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3/Experience.html">项目经验</a></li>
+</ul>
+</div>
+<div id="main">
+<table class="table">
+<tbody>
+<tr>
+<th rowspan="3"><img src="2.jpg"></th><td>姓名:于文甫</td><td>学号:U201612021</td>
+</tr>
+<tr><td>专业:船舶与海洋工程</td><td>籍贯:河南</td>
+</tr>
+<tr><td>专业:船舶与海洋工程</td><td>籍贯:河南</td>
+</tr>
+</tbody>
+</table>
+<h2>基本信息</h2>
+<table class="table">
+<tbody>
+<tr>
+<td>姓名：于文甫</td><td>性别：男</td><td>民族：汉族</td>
+</tr>
+<tr>
+<td>出生日期：1998/12/02</td><td>籍贯：河南</td><td>政治面貌:共青团员</td>
+</tr>
+<tr>
+<td>专业：船舶与海洋工程</td><td>就读学校：华中科技大学</td><td>学号：U201612021</td>
+</tr>
+<tr>
+<td>在校状态：是</td><td>是否残疾：否</td><td>是否孤儿：否</td>
+</tr>
+<tr>
+<td>证件类型：身份证</td><td>证件号：******************</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="bottom">
+<span class="bottoml">
+<address>?2017 cz1601 All rights reserved</address>
+</span>
+<span class="bottomr">
+<a href="#wrap">回到顶部</a>
+</span>
+</div>
+</div>
+</body>
+</html>
